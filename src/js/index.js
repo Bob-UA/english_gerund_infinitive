@@ -16,10 +16,16 @@ const shuffle = (array) => {
 const shuffledArray = shuffle(listItems); 
 
 function handleWordIconClick(e) {
-  if (e.target.localName !== 'li') {
+
+  const { localName, nextSibling, children, className } = e.target;
+  if (localName !== 'li' && localName !== 'p' || className === "") {
     return;
   }
-  e.target.children[1].className = 'type-text';
+  if (localName === 'p') {
+    return nextSibling.className = 'type-text';
+  }
+
+  children[1].className = 'type-text';
 
 }
 

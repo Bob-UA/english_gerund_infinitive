@@ -22,7 +22,17 @@ p{
   margin-right: auto;
 }
 
+.empty_container{
+  z-index: 200;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .word_item {
+  position: relative;
   cursor: pointer;
   font-size: x-large;
   padding: 20px 24px;

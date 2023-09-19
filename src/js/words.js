@@ -7,7 +7,7 @@ export const listItems = [
     type: gerund,
   },
   {
-    word: '* accuse of',
+    word: 'accuse of',
     type: gerund,
   },
   {
@@ -59,11 +59,11 @@ export const listItems = [
     type: gerund,
   },
   {
-    word: '* look after',
+    word: 'look after',
     type: gerund,
   },
   {
-    word: '* insist on',
+    word: 'insist on',
     type: gerund,
   },
   {
@@ -79,7 +79,7 @@ export const listItems = [
     type: gerund,
   },
   {
-    word: '* plan on',
+    word: 'plan on',
     type: gerund,
   },
   {
@@ -115,7 +115,7 @@ export const listItems = [
     type: gerund,
   },
   {
-    word: '* take care of',
+    word: 'take care of',
     type: gerund,
   },
   {
