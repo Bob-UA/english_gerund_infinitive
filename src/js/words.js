@@ -15,10 +15,6 @@ export const listItems = [
     type: gerund,
   },
   {
-    word: 'advise',
-    type: gerund,
-  },
-  {
     word: 'anticipate',
     type: gerund,
   },
@@ -115,11 +111,63 @@ export const listItems = [
     type: gerund,
   },
   {
-    word: 'take care of',
+    word: 'tolerate',
     type: gerund,
   },
   {
-    word: 'tolerate',
+    word: 'dislike',
+    type: gerund,
+  },
+  {
+    word: 'enjoy',
+    type: gerund,
+  },
+  {
+    word: 'finish',
+    type: gerund,
+  },
+  {
+    word: 'can’t help',
+    type: gerund,
+  },
+  {
+    word: 'keep',
+    type: gerund,
+  },
+  {
+    word: 'miss',
+    type: gerund,
+  },
+  {
+    word: 'mind',
+    type: gerund,
+  },
+  {
+    word: 'postpone',
+    type: gerund,
+  },
+  {
+    word: 'practice',
+    type: gerund,
+  },
+  {
+    word: 'quit',
+    type: gerund,
+  },
+  {
+    word: 'recollect',
+    type: gerund,
+  },
+  {
+    word: 'resent',
+    type: gerund,
+  },
+  {
+    word: 'stop',
+    type: gerund,
+  },
+  {
+    word: 'understand',
     type: gerund,
   },
   {
@@ -253,5 +301,77 @@ export const listItems = [
   {
     word: 'wish',
     type: infinitive,
+  },
+  {
+    word: 'ask',
+    type: infinitive,
+  },
+  {
+    word: 'intend',
+    type: infinitive,
+  },
+  {
+    word: 'mean',
+    type: infinitive,
+  },
+  {
+    word: 'talk',
+    type: infinitive,
+  },
+  {
+    word: 'can’t bear',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'advise',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'begin',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'continue',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'forget',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'hate',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'like',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'love',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'prefer',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'regret',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'remember',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'can’t stand',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'start',
+    type: gerund + '/' + infinitive,
+  },
+  {
+    word: 'try',
+    type: gerund + '/' + infinitive,
   },
 ];
