@@ -11,6 +11,41 @@ ul{
 p{
   margin: 0;
 }
+
+.dark{
+  background-color: #242526;
+}
+
+.dark .word_item{
+  background-color: #686868;
+}
+
+.dark .text{
+  color:#E3E3E3;
+}
+
+.dark .type-text{
+  color: #33CC66;
+}
+
+.dark .lightToggleIcon_pyhR{
+  display: none;
+}
+
+.dark .darkToggleIcon_wfgR{
+  display: block;
+}
+
+.darkToggleIcon_wfgR{
+  display: none;
+}
+
+.toggle{
+border: none;
+background-color: inherit;
+justify-content: center;
+align-items: center;}
+
 .main-container{
   max-width: 1140px;
   justify-content: center;

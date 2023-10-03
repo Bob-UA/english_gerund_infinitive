@@ -1,9 +1,19 @@
 // Add imports above this line
 import { listItems } from './words.js';
 
+const body = document.querySelector(".body");
 const gallery = document.querySelector(".list");
+const toggle = document.querySelector(".toggle");
 
 gallery.addEventListener('click', handleWordIconClick);
+toggle.addEventListener('click', changeTheme);
+
+function changeTheme(){
+  if (body.className === "") {
+    return (body.className += ' dark');
+  }
+  body.className = "";
+}
 
 const shuffle = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
