@@ -36,6 +36,10 @@ p{
   display: block;
 }
 
+.dark .author-container p{
+    color:#E3E3E3;
+}
+
 .darkToggleIcon_wfgR{
   display: none;
 }
