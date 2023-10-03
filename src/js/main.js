@@ -7,12 +7,22 @@ const toggle = document.querySelector(".toggle");
 
 gallery.addEventListener('click', handleWordIconClick);
 toggle.addEventListener('click', changeTheme);
+const theme = localStorage.getItem('ui-theme');
+section.className = theme;
+
+function save(key, value) {
+    localStorage.setItem(key, value);
+
+}
 
 function changeTheme() {
   if (!section.className) {
-    return (section.className = 'dark');
+    (section.className = 'dark');
+    save('ui-theme', section.className);
+    return;
   }
   section.className = "";
+    save('ui-theme', section.className);
 }
 
 const shuffle = (array) => {
