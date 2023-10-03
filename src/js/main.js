@@ -7,8 +7,16 @@ const toggle = document.querySelector(".toggle");
 
 gallery.addEventListener('click', handleWordIconClick);
 toggle.addEventListener('click', changeTheme);
-const theme = localStorage.getItem('ui-theme');
-section.className = theme;
+
+function loadThemeFromLocalStorage() {
+  const theme = localStorage.getItem('ui-theme');
+  if (theme) {
+    return section.className = theme;
+  }
+}
+
+loadThemeFromLocalStorage();
+
 
 function save(key, value) {
     localStorage.setItem(key, value);
