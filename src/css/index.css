@@ -12,6 +12,10 @@ p{
   margin: 0;
 }
 
+body{
+  margin: 0px;
+}
+
 .dark{
   background-color: #242526;
 }
