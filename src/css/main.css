@@ -52,7 +52,9 @@ body{
 border: none;
 background-color: inherit;
 justify-content: center;
-align-items: center;}
+align-items: center;
+  cursor: pointer;
+}
 
 .main-container{
   max-width: 1140px;
