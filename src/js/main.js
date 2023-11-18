@@ -1,4 +1,3 @@
-// Add imports above this line
 import { listItems } from './words.js';
 
 const section = document.querySelector("#section");
@@ -45,16 +44,11 @@ const shuffledArray = shuffle(listItems);
 
 function handleWordIconClick(e) {
 
-  const { localName, nextSibling, children, className } = e.target;
-  if (localName !== 'li' && localName !== 'p' || className === "") {
+  const { localName, children } = e.target;
+  if (localName !== 'li') {
     return;
   }
-  if (localName === 'p') {
-    return nextSibling.className = 'type-text';
-  }
-
   children[1].className = 'type-text';
-
 }
 
 const markupCards = createCardsMarckup(shuffledArray);
@@ -69,7 +63,4 @@ function createCardsMarckup(elements) {
     })
     .join('');
 }
-
-
-// Change code below this line
 
